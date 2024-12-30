@@ -1,0 +1,28 @@
+.pie-chart {
+  background-color: #aaaaaa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 10px;
+}
+
+.pie-chart h2 {
+  margin-bottom: 15px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.pie-chart .chart-placeholder {
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-style: italic;
+  color: #888;
+}

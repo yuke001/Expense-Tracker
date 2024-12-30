@@ -1,0 +1,9 @@
+
+.part01-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #404040;
+    padding: 20px;
+    width: 100%; 
+}
