@@ -18,7 +18,3 @@ This is a basic expense tracking application built using React. It allows users 
 
 - **Expense Visualization:**
   - Includes a placeholder for a pie chart which is used to represent different types of expenses.
-
-## Project Structure
-
-The project is organized as follows:
