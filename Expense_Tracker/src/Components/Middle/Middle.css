@@ -1,0 +1,18 @@
+/* src/Components/Middle/Middle.css */
+.middle-container {
+    display: flex; /* Arrange children horizontally */
+      justify-content: space-between;
+    background-color: #404040;
+      padding: 20px; /* Add some padding around the components */
+      width: 100%;
+  }
+  
+  .recent-transaction-container{
+     flex: 2; /* Take up more space */
+     margin-right: 10px;
+  }
+  
+  .top-expenses-container{
+    flex: 1;
+    margin-left: 10px;
+  }

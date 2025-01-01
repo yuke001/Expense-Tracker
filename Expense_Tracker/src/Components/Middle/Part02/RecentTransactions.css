@@ -1,0 +1,102 @@
+.recent-transactions {
+    background-color: #aaaaaa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.recent-transactions h2{
+   color: white;
+    margin-bottom: 15px;
+}
+
+.transactions-list {
+    margin-bottom: 15px;
+}
+
+.transaction-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+
+}
+
+.transaction-item:last-child{
+  border-bottom: none;
+}
+
+.transaction-details {
+    flex-grow: 1;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction-icon {
+    background-color: #eee;
+    border-radius: 50%;
+     width: 25px;
+    height: 25px;
+    margin-right: 10px;
+
+}
+
+.transaction-title {
+    font-weight: bold;
+}
+
+.transaction-amount {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.transaction-amount span {
+     margin-right: 10px;
+}
+
+
+.transaction-amount button {
+    border: none;
+    border-radius: 50%;
+     width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.transaction-amount .remove-button {
+  background-color: red;
+  color: white;
+}
+
+.transaction-amount .edit-button {
+    background-color: #FFB300;
+  color: black;
+}
+
+.pagination {
+  display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.pagination button {
+     border: 1px solid #ddd;
+    border-radius: 50%;
+     width: 25px;
+    height: 25px;
+     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}

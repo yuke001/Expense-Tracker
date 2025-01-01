@@ -5,6 +5,7 @@
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   text-align: center;
   margin: 10px;
+  position: relative;
 }
 
 .pie-chart h2 {
@@ -14,15 +15,7 @@
   font-weight: bold;
 }
 
-.pie-chart .chart-placeholder {
-  background-color: #ffffff;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  font-style: italic;
-  color: #888;
+.pie-chart .chart-container {
+  height: 250px; /* Provide explicit height */
+  position: relative;
 }

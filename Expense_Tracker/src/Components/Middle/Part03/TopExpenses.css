@@ -1,0 +1,13 @@
+.top-expenses {
+  background-color: #aaaaaa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+}
+
+.top-expenses h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
